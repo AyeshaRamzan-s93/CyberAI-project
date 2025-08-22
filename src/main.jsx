@@ -8,21 +8,21 @@ import { createRoot } from 'react-dom/client'
 // import App from './App.jsx'
 
 
-import Navbar from './CyberAI/Navbar/Navbar'
+import Navbar from './CyberAI/Navbar/Navbar.jsx'
 
-import HomeSection from './CyberAI/HomeSection/HomeSection'
+import HomeSection from './CyberAI/HomeSection/HomeSection.jsx'
 
-import Features from './CyberAI/Features/Features'
+import Features from './CyberAI/Features/Features.jsx'
 
-import CyberBox from './CyberAI/CyberBox/CyberBox'
+import CyberBox from './CyberAI/CyberBox/CyberBox.jsx'
 
-import CyberUniverse from './CyberAI/CyberUniverse/CyberUniverse'
+import CyberUniverse from './CyberAI/CyberUniverse/CyberUniverse.jsx'
 
-import PortalSection from './CyberAI/Portal/PortalSection'
+import PortalSection from './CyberAI/Portal/PortalSection.jsx'
 
-import FAQ from './CyberAI/FAQ/FAQ'
+import FAQ from './CyberAI/FAQ/FAQ.jsx'
 
-import Footer from './CyberAI/Footer/Footer'
+import Footer from './CyberAI/Footer/Footer.jsx'
 
 
 
