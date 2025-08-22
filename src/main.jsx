@@ -5,7 +5,11 @@ import { createRoot } from 'react-dom/client'
 // import './index.css'
 // import ActivityApp from "./Mock Website/MockApp.jsx";
 // import App from './App.jsx'
-import Navbar from './CyberAI/Navbar/Navbar.jsx'
+// import Navbar from './CyberAI/Navbar/Navbar.jsx'
+
+
+
+
 
 import HomeSection from './CyberAI/HomeSection/HomeSection.jsx'
 
@@ -28,7 +32,7 @@ import Footer from './CyberAI/Footer/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar/>
+    {/* <Navbar/> */}
     <HomeSection/>
     <Features/>
     <CyberBox/>
