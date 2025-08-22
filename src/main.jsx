@@ -2,37 +2,33 @@
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
 // import './index.css'
 // import ActivityApp from "./Mock Website/MockApp.jsx";
 // import App from './App.jsx'
-// import Navbar from './CyberAI/Navbar/Navbar.jsx'
 
 
+import Navbar from './CyberAI/Navbar/Navbar'
 
+import HomeSection from './CyberAI/HomeSection/HomeSection'
 
+import Features from './CyberAI/Features/Features'
 
-import HomeSection from './CyberAI/HomeSection/HomeSection.jsx'
+import CyberBox from './CyberAI/CyberBox/CyberBox'
 
+import CyberUniverse from './CyberAI/CyberUniverse/CyberUniverse'
 
-import Features from './CyberAI/Features/Features.jsx'
+import PortalSection from './CyberAI/Portal/PortalSection'
 
-import CyberBox from './CyberAI/CyberBox/CyberBox.jsx'
+import FAQ from './CyberAI/FAQ/FAQ'
 
-import CyberUniverse from './CyberAI/CyberUniverse/CyberUniverse.jsx'
-
-import PortalSection from './CyberAI/Portal/PortalSection.jsx'
-
-import FAQ from './CyberAI/FAQ/FAQ.jsx'
-
-import Footer from './CyberAI/Footer/Footer.jsx'
-
-
+import Footer from './CyberAI/Footer/Footer'
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <Navbar/> */}
+    {<Navbar/>}
     <HomeSection/>
     <Features/>
     <CyberBox/>
