@@ -8,7 +8,7 @@ import { createRoot } from 'react-dom/client'
 // import App from './App.jsx'
 
 
-import Navbar from './CyberAI/Navbar/Navbar.jsx'
+import Navbar from './CyberAI/Navbar'
 
 import HomeSection from './CyberAI/HomeSection/HomeSection.jsx'
 
